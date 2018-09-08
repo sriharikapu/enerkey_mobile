@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 71,
-
     },
     text2: {
         fontSize: 12,
@@ -97,6 +96,18 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    Thailand: {
+        marginTop: -36,
+        marginLeft: 321,
+    },
+    BangkokCommunity: {
+        marginTop: 13,
+        marginLeft: 25,
+    },
+    Ranking: {
+        marginTop: 10,
+        marginLeft: 25,
     },
 });
 

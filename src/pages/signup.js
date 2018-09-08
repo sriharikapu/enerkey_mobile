@@ -34,12 +34,12 @@ class Signup extends Component {
                 {/*<Text style={styles.content}>*/}
                     {/*We will send the thing that help your home to save energy and win the challenge.*/}
                 {/*</Text>*/}
-                <View style={{marginTop: 18, marginLeft: 45}}>
+                <View style={{marginTop: 8, marginLeft: 45}}>
                     <Image source={require('../../assets/TextInput.png')}/>
                 </View>
                 <TouchableOpacity
                     onPress={() => this.props.navigation.navigate("Mainpage")}
-                    style={{marginTop: 69, marginLeft: 113}}
+                    style={{marginTop: 48, marginLeft: 113}}
                 >
                     <Image source={require('../../assets/signup.png')}/>
                 </TouchableOpacity>

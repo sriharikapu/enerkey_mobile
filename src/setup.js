@@ -5,16 +5,18 @@ import styles from './styles';
 import Signup from "./pages/signup"
 import Mainpage from "./pages/mainpage"
 import Myaccount from "./pages/myaccount"
+import Community from "./pages/community"
 
 const AppNavigator = StackNavigator(
     {
         Signup: {screen: Signup},
         Mainpage: {screen: Mainpage},
         Myaccount: {screen: Myaccount},
+        Community: {screen: Community},
 
     },
     {
-        initialRouteName: "Mainpage",
+        initialRouteName: "Signup",
         headerMode: "none"
     }
 );

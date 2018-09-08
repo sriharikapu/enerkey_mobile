@@ -33,7 +33,7 @@ class Myaccount extends Component {
                         </Button>
                     </Left>
                     <Body>
-                        <Text>MY ACCOUNT</Text>
+                    <Text>MY ACCOUNT</Text>
                     </Body>
                     <Right >
                         <TouchableOpacity >
@@ -70,6 +70,14 @@ class Myaccount extends Component {
                             </TouchableWithoutFeedback>
                         </View>
                     </Modal>
+                    <View >
+                        <TouchableOpacity
+                            onPress={() => this.props.navigation.navigate("Community")}
+                        >
+                            <Image source={require('../../assets/Thailand.png')}
+                                   style={styles.Thailand} />
+                        </TouchableOpacity>
+                    </View>
                 </ScrollView>
             </Container>
         );
