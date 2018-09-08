@@ -24,17 +24,11 @@ class Signup extends Component {
                 <Text style={styles.welcome}>
                     WELCOME!
                 </Text>
-                <View style={styles.content}>
-                    <Text style={styles.text2}>
-                        If you wanna join our challenge to get the reward.
-                        We will send the thing that help your home to save energy and win the challenge.
-                    </Text>
-                </View>
-
-                {/*<Text style={styles.content}>*/}
-                    {/*We will send the thing that help your home to save energy and win the challenge.*/}
-                {/*</Text>*/}
-                <View style={{marginTop: 8, marginLeft: 45}}>
+                <Text style={styles.text2}>
+                    If you wanna join our challenge to get the reward.
+                    We will send the thing that help your home to save energy and win the challenge.
+                </Text>
+                <View style={{marginTop: 38, marginLeft: 45}}>
                     <Image source={require('../../assets/TextInput.png')}/>
                 </View>
                 <TouchableOpacity

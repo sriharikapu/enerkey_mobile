@@ -55,18 +55,21 @@ const styles = StyleSheet.create({
         marginLeft: 35,
     },
     welcome: {
-        flex: 1,
+        // flex: 1,
         fontSize: 24,
+        width: 224,
         marginTop: 28,
         marginLeft: 150,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+        color: '#4A4A4A'
+        // flexDirection: 'column',
+        // justifyContent: 'center',
+        // alignItems: 'center',
     },
     content: {
         flex: 1,
         width: 272,
         height: 14,
+        color: '#4A4A4A',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
@@ -74,6 +77,12 @@ const styles = StyleSheet.create({
     },
     text2: {
         fontSize: 12,
+        color: '#4A4A4A',
+        width: 272,
+        marginLeft: 75,
+        marginTop: 16,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     MainContent: {
         marginTop: 20,
